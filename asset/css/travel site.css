@@ -1,0 +1,165 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.flex-container-ct{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap:50px;
+}
+
+.flex-container-sb {
+  display: flex;
+  justify-content:space-between;
+  align-items:center ;
+}
+
+.logo{
+  color: #335576;
+  font-weight: bold;}
+
+.nav li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.banner-section, .footer-section{
+  background-color:antiquewhite;
+  padding: 40   px 0px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+  color:#335576
+}
+
+.banner-text p{
+  color: #335576; font-size: 11px;
+}
+
+div {
+  /* border:1px orange solid; */
+}
+.button{
+  background-color: orange;
+  padding: 5px 20px;
+  border-radius: 15px;
+  color: white;
+}
+.body-section, .footer-section{
+  padding: 40px 0px;
+}
+
+.body-section img {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: orange 6px 5px 10px;
+}
+.flex-container-ct>div>span{
+  position:relative;
+  top: -15px;
+  left: -80px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-section{
+  
+}
+
+img{
+  width: 200px;
+  /* display: none; */
+} 
+
+.container-grid{
+  display: grid;
+  /* grid gap 20px.... note:: this property shuld not be used nowadays */
+  gap: 20px;
+  /* grid-template-columns: 300px 300px 300px; */
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  /* grid-template-columns: 3fr 1fr 4fr; */
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* grid-template-columns: auto 1fr 2fr; */
+  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+  /* grid-template-rows: 1fr 2fr; */
+  grid-template-rows: 1fr; 
+
+  /* justify-items: end or start or stretch; */
+  /* align-items: start; */
+}
+
+.green{
+  /* grid-column-start: 1; */
+  /* grid-column-end: 4; */
+  /* grid-columns: 1/4; */
+  /* grid-columns: 1/-1; */
+  grid-column: span 3;
+  grid-row: span 1;
+}
+.zone{
+  cursor: pointer;
+  /* display:inline-block; */
+  text-align: center;
+  font-size: 10em;
+  border-radius: 15px;
+  border: 2px solid #bbb;
+  transition: all 0.3s linear;
+}
+
+.zone:hover{
+  -webkit-box-shadow:rgba(7, 3, 3, 0.8) 0px 5px 15px, 
+}
+.green{
+  background: green;
+}
+.red{
+  background: red;
+
+}
+
+.white{
+  background: white;
+}
+
+.brown{
+  background: brown;
+}
+
+.yellow{
+  background: yellow;
+}
+
+.black{
+  background: rgb(14, 13, 13);
+}
+
+.purple{
+  background: purple;
+}
+
+.orange{
+  background: orange;
+}
+
+.pink{
+  background: hotpink;
+}
+
+.gold{
+  background: gold;
+}
+
+.blue{
+  background: blue;
+}
+
+.cyan{
+  background: cyan;
+}
+

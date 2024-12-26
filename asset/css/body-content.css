@@ -1,0 +1,28 @@
+img{
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.left-side{
+  background-color: aquamarine;
+  justify-content: left;
+}
+.right-side{
+  background-color: blueviolet;
+}
+.container{
+  /* background-color: blueviolet; */
+}
+.row{
+  margin-top: 10px;
+}
+.col{
+  background-color: goldenrod;
+  border: 2px solid black;
+}
+

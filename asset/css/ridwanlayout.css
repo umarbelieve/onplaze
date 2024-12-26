@@ -1,0 +1,140 @@
+#header-3rd{
+display: flex;
+justify-content: space-between ;
+border-bottom: 1px solid #335576;
+border-top: 1px solid #335576;
+
+}
+.links ul li{
+display:inline;
+padding-left: 30px;
+border-left: solid #335576;
+margin-left: 30px;
+overflow:hidden;
+height: inherit;
+line-height: inherit;
+}
+#header-3rd .links ul li a {
+  border-bottom: 0;
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #335576;
+}
+.logo{
+  font-size: 1em;
+  background-color: #335576;
+}
+h2 a{
+  color:white;
+}
+h1{
+  color:#335576;
+}
+img{
+  width: 200px;
+}
+
+.banner-section{
+  border: solid 2px #335576;
+  background-color: aqua;
+padding: 30px;
+}
+
+.container{
+  border: solid 2px red;
+  padding: 30px;
+ }
+
+.flex-container-sb{
+  border: solid 2px greenyellow;
+
+}
+.grid-container{
+  display: grid;
+  /* grid gap 20px.... note:: this property shuld not be used nowadays */
+  gap: 20px;
+  /* grid-template-columns: 300px 300px 300px; */
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  /* grid-template-columns: 3fr 1fr 4fr; */
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* grid-template-columns: auto 1fr 2fr; */
+  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+  /* grid-template-rows: 1fr 2fr; */
+  grid-template-rows: 1fr; 
+
+  /* justify-items: end or start or stretch; */
+  /* align-items: start; */
+}
+
+.green{
+  /* grid-column-start: 1; */
+  /* grid-column-end: 4; */
+  /* grid-columns: 1/4; */
+  /* grid-columns: 1/-1; */
+  grid-column: span 3;
+  grid-row: span 1;
+}
+.zone{
+  cursor: pointer;
+  /* display:inline-block; */
+  text-align: center;
+  font-size: 10em;
+  border-radius: 15px;
+  border: 2px solid #bbb;
+  transition: all 0.3s linear;
+}
+
+.zone:hover{
+  -webkit-box-shadow:rgba(7, 3, 3, 0.8) 0px 5px 15px, 
+}
+.green{
+  background: green;
+}
+.red{
+  background: red;
+
+}
+
+.white{
+  background: white;
+}
+
+.brown{
+  background: brown;
+}
+
+.yellow{
+  background: yellow;
+}
+
+.black{
+  background: rgb(14, 13, 13);
+}
+
+.purple{
+  background: purple;
+}
+
+.orange{
+  background: orange;
+}
+
+.pink{
+  background: hotpink;
+}
+
+.gold{
+  background: gold;
+}
+
+.blue{
+  background: blue;
+}
+
+.cyan{
+  background: cyan;
+}
+
